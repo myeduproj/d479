@@ -68,3 +68,29 @@ body {
 .sub-page .card .card-title {
     font-size: 1.7em;
 }
+
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+/* .featurette-image {
+    max-width: 500px;
+    max-height: 500px;
+} */
