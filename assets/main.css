@@ -3,36 +3,48 @@ body {
     font-size: 1em;
 }
 
-#home-cover {
+.home-cover {
     text-align: center;
 }
 
-#home-cover img {
+.home-cover img {
     height: 500px;
 }
 
-#home-cover h1 {
-   color: black;
+.home-cover h1 {
+    color: black;
     font-weight: bold;
     text-shadow: 5px 5px 8px rgba(255, 255, 255, 1);
     font-size: 7em;
     margin: 0;
 }
-
-#home-cover p {
+@media (max-width: 1000px) {
+    .sub-cover h1 {
+        font-size: 5em;
+    }
+}
+@media (max-width: 700px) {
+    .sub-cover h1 {
+        font-size: 3em;
+    }
+}
+.home-cover p {
     color: #055C70;
     font-weight: bold;
     text-shadow: 2px 3px 6px rgba(255, 255, 255, 1);
     font-size: 2.7em;
 }
 
-#home-cover .carousel-caption {
-    /* bottom: -20px; */
+.home-cover .carousel-caption {
     bottom: 0;
 }
 
+.sub-cover .carousel-caption {
+    bottom: 1.25rem;
+}
+
 .content-box {
-    max-width: 1280px;
+    max-width: 1140px;
 }
 
 .card {
@@ -47,4 +59,12 @@ body {
 
 .card .card-title {
     font-size: 2em;
+}
+
+.sub-page p {
+    font-size: 1.4em;
+}
+
+.sub-page .card .card-title {
+    font-size: 1.7em;
 }
